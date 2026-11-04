@@ -1,2 +1,2 @@
-# Shalai
-Application mobile Shalai – Mbackesso
+# Shalaï
+Application mobile Shalaï – Mbackesso
