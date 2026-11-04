@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1117">
+  <meta name="description" content="Téléchargez Shalaï, l'application Android de Mbackesso.">
+  <title>Shalaï — Télécharger l'application</title>
+  <style>
+    :root { color-scheme: dark; --bg:#080d12; --panel:#101922; --muted:#aab7c4; --line:#24313c; --green:#22c55e; --green2:#16a34a; }
+    * { box-sizing:border-box }
+    body { margin:0; min-height:100vh; font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif; color:#f5f7fa; background:radial-gradient(ellipse at 50% -15%,#173328 0,transparent 48%),var(--bg); display:flex; flex-direction:column; }
+    header { width:min(1100px,100%); margin:auto; padding:24px 22px; display:flex; align-items:center; justify-content:space-between; }
+    .brand { display:flex; align-items:center; gap:11px; font-weight:750; letter-spacing:.2px }
+    .brand-mark { width:38px;height:38px;border-radius:12px;background:linear-gradient(145deg,#34d399,#15803d);display:grid;place-items:center;color:#052e16;font-size:21px;font-weight:900;box-shadow:0 8px 28px #16a34a33 }
+    .eyebrow { color:#86efac; font-size:12px; text-transform:uppercase; letter-spacing:2px; font-weight:700 }
+    main { flex:1; display:grid; place-items:center; padding:38px 20px 70px }
+    .hero { width:min(760px,100%); text-align:center; padding:clamp(28px,6vw,58px); border:1px solid #263640; border-radius:28px; background:linear-gradient(160deg,#121d26f2,#0d141bf2); box-shadow:0 24px 90px #0008; position:relative; overflow:hidden }
+    .hero:before { content:"";position:absolute;inset:0 20% auto;height:1px;background:linear-gradient(90deg,transparent,#4ade80,transparent);opacity:.8 }
+    .app-icon { width:82px;height:82px;margin:0 auto 22px;border-radius:25px;display:grid;place-items:center;background:linear-gradient(145deg,#34d399,#15803d);color:#052e16;font-size:38px;font-weight:900;box-shadow:0 12px 36px #16a34a35 }
+    h1 { margin:0;font-size:clamp(38px,8vw,58px);letter-spacing:-2px }
+    .subtitle { color:#c1ccd5;font-size:clamp(16px,3vw,19px);line-height:1.6;max-width:520px;margin:14px auto 22px }
+    .version { display:inline-flex;align-items:center;gap:8px;border:1px solid #166534;background:#052e16;color:#86efac;border-radius:999px;padding:7px 13px;font-size:13px;font-weight:700 }
+    .dot { width:7px;height:7px;background:#4ade80;border-radius:50%;box-shadow:0 0 12px #4ade80 }
+    .download { display:flex;justify-content:center;align-items:center;gap:11px;width:min(440px,100%);margin:30px auto 13px;padding:17px 22px;border-radius:15px;background:linear-gradient(135deg,#22c55e,#15803d);color:#052e16;text-decoration:none;font-size:16px;font-weight:800;box-shadow:0 12px 30px #16a34a33;transition:transform .18s,filter .18s }
+    .download:hover { transform:translateY(-2px);filter:brightness(1.08) }
+    .download:focus-visible { outline:3px solid #bbf7d0;outline-offset:4px }
+    .meta { color:#9eacb8;font-size:13px;line-height:1.7 }
+    .features { display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:36px 0 0;text-align:left }
+    .feature { padding:17px;border:1px solid #263640;border-radius:16px;background:#0b131a }
+    .feature b { display:block;font-size:14px;margin:9px 0 5px }
+    .feature p { margin:0;color:#9eacb8;font-size:12px;line-height:1.55 }
+    .ico { font-size:20px }
+    .note { margin:25px auto 0;max-width:540px;color:#91a0ad;font-size:12px;line-height:1.6 }
+    footer { padding:24px 20px 32px;text-align:center;color:#788895;font-size:12px }
+    footer strong { color:#cbd5df }
+    @media(max-width:620px){.features{grid-template-columns:1fr}.feature{display:grid;grid-template-columns:30px 1fr;column-gap:10px}.feature .ico{grid-row:span 2}.feature b{margin:0 0 4px}.hero{border-radius:22px}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand"><div class="brand-mark">S</div><span>Shalaï</span></div>
+    <span class="eyebrow">by Mbackesso</span>
+  </header>
+  <main>
+    <section class="hero" aria-labelledby="title">
+      <div class="app-icon" aria-hidden="true">S</div>
+      <div class="eyebrow">Votre application Android</div>
+      <h1 id="title">Shalaï</h1>
+      <p class="subtitle">Découvrez Shalaï et profitez de votre expérience mobile. Téléchargez dès maintenant la première version.</p>
+      <span class="version"><span class="dot"></span> Version 1.0.0</span>
+      <a class="download" href="https://github.com/mbackesso-angency/Shalai/releases/download/v1.0.0/shalai.apk" download>
+        <span aria-hidden="true">↓</span> Télécharger Shalaï
+      </a>
+      <div class="meta">Android · Fichier APK · 71,8 Mo</div>
+      <div class="features">
+        <div class="feature"><span class="ico">📲</span><b>Installation simple</b><p>Téléchargez le fichier puis ouvrez-le sur votre téléphone Android.</p></div>
+        <div class="feature"><span class="ico">🔒</span><b>Téléchargement officiel</b><p>Le bouton utilise la publication officielle Shalaï sur GitHub Releases.</p></div>
+        <div class="feature"><span class="ico">🚀</span><b>Version 1.0.0</b><p>La première version de Shalaï, publiée par Mbackesso.</p></div>
+      </div>
+      <p class="note">Selon les paramètres de votre téléphone, Android peut demander l'autorisation d'installer une application provenant de votre navigateur.</p>
+    </section>
+  </main>
+  <footer>© <span id="year">2026</span> <strong>Mbackesso Digital</strong> · Tous droits réservés</footer>
+</body>
+</html>
